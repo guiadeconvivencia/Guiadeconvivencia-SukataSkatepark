@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Convivência - Pista de Skate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- MENU DE NAVEGAÇÃO (Horizontal no Topo) -->
+    <header>
+        <nav class="menu-barra">
+            <ul>
+                <!-- Como estamos na página Guia, a 1ª opção se torna 'Home' -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recomendacoes.html">Recomendações</a></li>
+                <li><a href="pesquisa.html">Pesquisa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL (MIOLO) - GUIA DE CONVIVÊNCIA -->
+    <main class="conteudo">
+        <h1>Guia de Convivência da Pista de Skate</h1>
+        
+        <!-- Introdução do Guia -->
+        <p class="introducao-texto">
+            Este guia digital foi desenvolvido a partir de um diagnóstico participativo com os frequentadores do espaço público, visando promover a segurança, a harmonia e a prevenção de acidentes na pista de skate.
+        </p>
+
+        <!-- 5 Sessões Sanfonadas (Accordion) -->
+        <div class="accordion">
+            
+            <!-- Tópico 1 -->
+            <button class="accordion-btn">1. Cuidados com Crianças e Iniciantes</button>
+            <div class="accordion-content">
+                <p><strong>Atenção Redobrada:</strong> O skatepark é um espaço de alta circulação e velocidade. Crianças pequenas e praticantes iniciantes exigem atenção especial por parte de todos os frequentadores. Lembre-se de usar o equipamento de proteção (capacete, joelheiras, cotoveleiras) se ainda estiver aprendendo para evitar acidentes graves.</p>
+                <p><strong>Responsabilidade Familiar:</strong> Pais e responsáveis devem acompanhar e orientar crianças menores, evitando que circulem livremente ou que brinquem sentadas no meio da pista e nas áreas de transição (copings e rampas). Sempre existe a chance de alguém errar algum movimento que resulta na trajetória desgovernada do skate, podendo machucar outras pessoas não intencionalmente.</p>
+                <p><strong>Inclusão com Segurança:</strong> O respeito ao ritmo de quem está começando é fundamental para evitar atropelamentos e quedas graves. Iniciantes devem ser orientados a ocupar áreas de menor risco ou treinar nas laterais antes de avançar para os obstáculos centrais.</p>
+                <p><em>Dica:</em> Se você é iniciante ou está tendo dificuldades com o fluxo da pista tente conversar com outros praticantes ou professores sobre quais seriam os melhores lugares para começar e os horários mais tranquilos para praticar sua modalidade.</p>
+            </div>
+
+            <!-- Tópico 2 -->
+            <button class="accordion-btn">2. Regras de Preferência para "Dropar"</button>
+            <div class="accordion-content">
+                <p><strong>A Regra da Vez:</strong> Antes de descer ("dropar") de qualquer rampa, obstáculo ou borda, olhe sempre ao redor para certificar-se de que a linha está livre.</p>
+                <p><strong>Respeito à Ordem:</strong> Respeite a vez de quem já está na linha ou se posicionou antes no topo do obstáculo. Observe os outros praticantes do mesmo bowl ou obstáculo que está usando para não deixar ninguém sem fazer o uso. Entrar na frente de outro praticante é uma das principais causas de acidentes e colisões de alto impacto em pistas de Skate.</p>
+                <p><em>Dica:</em> Antes de dropar diga em uma boa altura “Alô bowl!”. Isso ajuda a evitar problemas com drops simultâneos em horários de pico.</p>
+            </div>
+
+            <!-- Tópico 3 -->
+            <button class="accordion-btn">3. Convivência entre Skates, Bikes, Patins e Comunidade</button>
+            <div class="accordion-content">
+                <p><strong>Respeito Mútuo no Espaço Coletivo:</strong> A pista é compartilhada por diferentes modalidades (skate, BMX, patins) e pela comunidade em geral (pedestres e acompanhantes). O espaço é público e todos nós podemos usar com responsabilidade e respeito.</p>
+                <p><strong>Sessão Coordenada:</strong> Dividir o uso do espaço de forma organizada evita colisões. É essencial que cada modalidade compreenda a dinâmica e a trajetória dos outros praticantes.</p>
+                <p><strong>Cultura Local e Diálogo:</strong> A convivência em harmonia gera inclusão, respeito e agrega valor à cultura local do esporte, atraindo simpatizantes e fortalecendo a comunidade do parque.</p>
+                <p><em>Dica:</em> O espaço é destinado à comunidade e é preciso a colaboração, respeito e educação de todos os grupos para que a realização da prática seja saudável e prazerosa. Todos os esportes radicais podem ser estressantes quando não desenvolvidos no espaço com condições ideais, evite discutir de “cabeça quente”.</p>
+            </div>
+
+            <!-- Tópico 4 -->
+            <button class="accordion-btn">4. Noção sobre Espaços para Manobras</button>
+            <div class="accordion-content">
+                <p><strong>Fluxo e Direção:</strong> Entenda o mapeamento mental da pista. Evite cruzar o caminho de quem está em velocidade ou atravessar obstáculos sem olhar atentamente para o fluxo contínuo.</p>
+                <p><strong>Áreas de Descanso vs. Área de Execução:</strong> Nunca pare, converse ou deixe equipamentos no meio da pista ou na linha de fluxo das manobras. Utilize as laterais e áreas externas reservadas para pausas e ajustes nos equipamentos.</p>
+            </div>
+
+            <!-- Tópico 5 -->
+            <button class="accordion-btn">5. Horários de Menor Fluxo (Recomendação Útil)</button>
+            <div class="accordion-content">
+                <p><strong>Dica para Novos Visitantes:</strong> Para quem está começando ou prefere treinar com mais tranquilidade e espaço sem o estresse da superlotação, evite os horários de pico entre as 18:00 e 21:00 da noite.</p>
+                <p><strong>Observação sobre Infraestrutura:</strong> É importante reparar que a falta de outras pistas de skate com iluminação adequada em Brasília afeta diretamente na superlotação. O Plano Piloto possui a Pista do Deck Sul, que tem iluminação durante a noite e pode ser uma boa alternativa para fugir da superlotação.</p>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- RODAPÉ COM OS 2 BOTÕES -->
+    <footer class="rodape-botoes">
+        <!-- 1º Botão: Prosseguir para Recomendações Extras (Branco com bordas vermelhas) -->
+        <a href="recomendacoes.html" class="btn-prosseguir">Recomendações Extras</a>
+        
+        <!-- 2º Botão: Feedback (Preto com borda RGB) -->
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQliD4LyaVGFXkmj4f0FZhmKl8EDpsipVqfkrGXuEKLABU9A/viewform?usp=publish-editor" target="_blank" class="btn-feedback">Avalie o Guia (Feedback)</a>
+    </footer>
+
+    <!-- SCRIPT DO JS PARA AS SANFONAS -->
+    <script src="script.js"></script>
+</body>
+</html>
